@@ -17,7 +17,7 @@ public class HomeController {
 
     private String GetViewName()
     {
-        return "home";
+        return "home.html";
     }
 }
 
