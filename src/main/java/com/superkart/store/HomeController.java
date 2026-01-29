@@ -11,6 +11,14 @@ public class HomeController {
     
     public String home() 
     {
-        return "home.html";
+        String viewName = GetViewName();
+        return viewName ;
+    }
+
+    private String GetViewName()
+    {
+        return "home";
     }
 }
+
+
